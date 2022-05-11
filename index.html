@@ -23,12 +23,11 @@
             <img src="images/logo.png" height="200px">
             <h1 class="header-name">Abigail Unwin</h1>
             <br>
-            <a href="#projects-container" class="nav-link">PROJECTS</a>
-            <a href="#about-me-container" class="nav-link">ABOUT ME</a>
-            <a href="#skills-container" class="nav-link">SKILLS</a>
-            <a href="#testimonials-container" class="nav-link">TESTIMONIALS</a>
-            <a href="#footer-container" class="nav-link">CONTACT ME</a>
-            <a href="#footer-container" class="nav-link">SOCIAL</a>
+            <a class="nav-link">PROJECTS</a>
+            <a class="nav-link">ABOUT ME</a>
+            <a class="nav-link">SKILLS</a>
+            <a class="nav-link">TESTIMONIALS</a>
+            <a class="nav-link">CONTACT ME</a>
         </nav>
     </header>
 
@@ -37,6 +36,31 @@
             <h2 class="section-title" id="white-title"><span id="white-title">Pr</span>ojects</h2>
         </div>
         <div class="projects">
+            <div class="project-card">
+                <div class="left-col-project-card">
+                    <a href="https://abbie-codes.github.io/landing-page/">
+                        <img class="project-image" src="images/landing-page.png" alt="image of landing page"
+                            width="95%"></a>
+                </div>
+                <div class="right-col-project-card">
+                    <a class="project-name" href="https://abbie-codes.github.io/article-blog/">
+                        <h3>Landing Page</h3>
+                    </a>
+                    <i>Created for Udacity as part of a Front End Development Nanodegree.</i><br>
+                    <br>
+                    <p>For this project I created responsive landing page for a study app using <span
+                            class="lang">Javascript</span>, <span class="lang">HTML</span>
+                        and <span class="lang">CSS</span> . This website is one page. The navigation bar highlights the
+                        section displayed in the viewport and hides when scrolling. The section that is being viewed
+                        becomes active, highlights and an animation is added. When a user scrolls down the page a button
+                        appears to allow the user to scroll to top. All sections are collapsible.
+                        <br>
+                        To view the code please
+                        <a class="github-repository" href="https://github.com/abbie-codes/landing-page">visit the Github
+                            repository</a>.
+                    </p>
+                </div>
+            </div>
             <div class="project-card">
                 <div class="left-col-project-card">
                     <a href="https://abbie-codes.github.io/article-blog/">
@@ -156,8 +180,8 @@
             </quote>
         </div>
     </section>
-
-    <footer id="footer-container">
+    
+    <section id="footer-container">
         <div class="contact-me">
             <div class="footer-title">
                 <h2 class="section-title" id="white-title"><span id="white-title">Co</span>ntact</h2>
@@ -194,7 +218,8 @@
             <img src="images/icons/icons8-copyright-all-rights-reserved-24.png" height="15px" width="15px">
             &nbsp Made with ♡ by Abigail Unwin
         </p>
-    </footer>
+    </section>
+<script src="JS/app.js"></script>
 </body>
 
 </html>
