@@ -28,25 +28,25 @@ nav > a {
 }
 
 nav > a:hover {
-    color: #f44336;
-    border-bottom: 1px solid #f44336;
+    color: #1674ea;
+    border-bottom: 1px solid #1674ea;
 }
 /*Projects section */
 .lang {
     padding: 5px;
-    color: #f44336;
-    border: 2px solid #f44336;
+    color: #1674ea;
+    border: 2px solid #1674ea;
     border-radius: 5px;
 }
 
 .github-repository {
-    color: #f44336;
+    color: #1674ea;
     text-decoration: none;
     font-weight: 500;
 }
 
 .github-repository:hover {
-    color: darkred;
+    color: #0a2657;
 }
 
 .project-image {

@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1em;
 }
 
 nav {
@@ -57,6 +58,13 @@ nav > img {
 
 .project-image {
     margin: auto;
+}
+
+@media only screen and (min-width: 900px) {
+    .left-col-project-card,
+    .right-col-project-card{
+    width: 50%;
+}
 }
 
 .right-col-project-card > p {
@@ -98,7 +106,7 @@ nav > img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 0% 5% 2% 2%;
+    margin: 5% 5% 5% 2%;
 }
 
 /* Testimonials Section */
