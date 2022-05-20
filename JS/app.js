@@ -27,7 +27,7 @@ function toggleHighlight(c) {
     let cells = c.parentElement.parentElement.getElementsByClassName("nav-link");
     for (let i in cells) {
        let cell = cells.item(i);
-       cell.style.cssText = (cell != c) ? "" : "color: #1674ea; border-bottom: 1px solid #1674ea;";
+       cell.style.cssText = (cell != c) ? "" : "background-color: #1674ea; color: #fff;";
     }
 }
 
