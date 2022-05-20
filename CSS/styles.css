@@ -45,6 +45,7 @@ nav > a:hover {
     color: #1674ea;
     border: 2px solid #1674ea;
     border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .github-repository {
