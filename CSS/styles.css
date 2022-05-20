@@ -12,12 +12,10 @@ body {
 }
 
 .header-name {
-    color: #000;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
     font-size: 2em;
     padding: 2%;
     text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 nav > a {
@@ -25,12 +23,22 @@ nav > a {
     line-height: 2em;
     text-decoration: none;
     color: #000;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
 }
 
 nav > a:hover {
-    color: #1674ea;
-    border-bottom: 1px solid #1674ea;
+    background-color: #1674ea;
+    color: #fff;
+
 }
+
+/*Skills section */
+.icon img {
+    opacity: 0.9;
+}
+
 /*Projects section */
 .lang {
     padding: 5px;
@@ -40,7 +48,7 @@ nav > a:hover {
 }
 
 .github-repository {
-    color: #1674ea;
+    color: deeppink;
     text-decoration: none;
     font-weight: 500;
 }
@@ -76,17 +84,17 @@ nav > a:hover {
     margin: auto;
 }
 
-#white-title {
+.white-title {
     color: #fff;
 }
 
-#white-title > span {
+.white-title > span {
     border-bottom: 2px solid #fff;
     color: #fff;
     font-family: 'Playfair Display', serif;
 }
 
-.section-title > span {
+span {
     padding-bottom: 0.2em;
     border-bottom: 2px solid #000;
     color: #000;
@@ -102,7 +110,7 @@ nav > a:hover {
 .about-me > a:active,
 .about-me > a {
     font-weight: 600;
-    color: #1674ea;
+    color: deeppink;
     text-decoration: none;
 }
 
@@ -129,6 +137,9 @@ quote {
 .testimonial-author {
     font-size: 1em;
     color:#1674ea;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: none;
+
 }
 
 .testimonial-author-photo {
@@ -143,7 +154,6 @@ quote {
 /*Footer */
 #footer-container {
     color: white;
-    background-color: #000;
 }
 
 .icon-descriptor {

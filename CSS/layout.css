@@ -19,22 +19,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
 }
 
 nav {
     display: flex;
     flex-direction: column;
     height: 5%;
-    justify-content: space-between;
     align-items: center;
     position: -webkit-sticky; /*for Safari */
     position: sticky;
-    top: 5vh;
+    top: 10vh;
+    padding: 20px;
 }
 
 nav > img {
-    height: 20vh;
+    height: 30vh;
+    box-shadow: 10px 10px deeppink;
 }
 
 /* Projects section */
@@ -78,20 +78,17 @@ nav > img {
 /* About Me section */
 #about-me-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: auto;
     align-items: center;
     justify-content: center;
-    gap: 10%;
-}
-
-.about-me-content {
-    width: 50%;
-}
-
-.about-me-img {
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.about-me{
+    text-align: center;
+    width: 80%;
 }
 
 /*Skills Section */
@@ -105,8 +102,13 @@ nav > img {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    margin: 5% 5% 5% 2%;
+    justify-content: center;
+}
+
+.icon {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
 }
 
 /* Testimonials Section */
@@ -243,6 +245,12 @@ quote {
         margin: 2%;
     }
 
+    .icon {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+    }
+
     /*Testimonials */
     .quote-container {
         flex-wrap: wrap;
@@ -299,6 +307,12 @@ quote {
 
     .about-me-content {
         width: 95%;
+    }
+
+    .icon {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
     }
 
     /*Testimonials Section */
