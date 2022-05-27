@@ -8,11 +8,12 @@ body {
 }
 
 #header-container { grid-area: 1 / 1 / 7 / 2; }
-#projects-container { grid-area: 1 / 2 / 2 / 3; }
-#about-me-container { grid-area: 2 / 2 / 3 / 3; }
-#skills-container { grid-area: 3 / 2 / 4 / 3; }
-#testimonials-container { grid-area: 4 / 2 / 5 / 3; }
-#footer-container { grid-area: 5 / 2 / 6 / 3; }
+#about-me-container { grid-area: 1 / 2 / 2 / 3; }
+#projects-container { grid-area: 2 / 2 / 3 / 3; }
+#design-container { grid-area: 3 / 2 / 4 / 3; }
+#skills-container { grid-area: 4 / 2 / 5 / 3; }
+#testimonials-container { grid-area: 5 / 2 / 6 / 3; }
+#footer-container { grid-area: 6 / 2 / 7 / 3; }
 
 /* Header */
 #header-container {
@@ -88,7 +89,31 @@ nav > img {
 
 .about-me{
     text-align: center;
-    width: 80%;
+    width: 60%;
+    padding: 3%;
+}
+
+/* Design section */
+/* Graphic design section */
+#design-container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+#design-description {
+    padding: 2%;
+}
+
+#design-description,
+#myCarousel {
+    width: 50%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+  width: 50%;
 }
 
 /*Skills Section */
@@ -127,7 +152,8 @@ nav > img {
 
 quote {
     width: 100%;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right:5%;
     text-align: center;
 }
 
