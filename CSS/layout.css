@@ -29,7 +29,7 @@ nav {
     align-items: center;
     position: -webkit-sticky; /*for Safari */
     position: sticky;
-    top: 5vh;
+    top: 1vh;
     padding: 20px;
 }
 
