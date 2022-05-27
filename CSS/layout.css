@@ -29,7 +29,7 @@ nav {
     align-items: center;
     position: -webkit-sticky; /*for Safari */
     position: sticky;
-    top: 10vh;
+    top: 5vh;
     padding: 20px;
 }
 
@@ -97,6 +97,7 @@ nav > img {
 /* Graphic design section */
 #design-container {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     width: 100%;
 }
@@ -266,6 +267,16 @@ quote {
         width: 95%;
     }
 
+    /*Graphic Design section */
+    #design-container {
+       flex-direction: column; 
+    }
+
+    #design-description,
+    #myCarousel {
+    width: 100%;
+    }
+
     /*Skills Section */
     .programming-icons {
         margin: 2%;
@@ -298,7 +309,7 @@ quote {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1050px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
     /* Navigation Bar */
     nav {
         height: 15%;
@@ -339,6 +350,16 @@ quote {
         margin-left: 0%;
         margin-right: 0%;
         margin-bottom: 0%;
+    }
+    
+    /*Graphic Design section */
+    #design-container {
+        flex-direction: column; 
+    }
+     
+    #design-description,
+    #myCarousel {
+    width: 100%;
     }
 
     /*Testimonials Section */
