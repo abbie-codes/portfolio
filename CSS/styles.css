@@ -133,6 +133,7 @@ nav > a:hover {
     line-height: 1.5em;
 }
 
+.link,
 .current-project,
 .about-me > a:active,
 .about-me > a {
