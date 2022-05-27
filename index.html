@@ -2,38 +2,68 @@
 <html lang="en">
 
 <head>
+    <!--Meta-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Title-->
     <title>Abigail Unwin | Portfolio</title>
 </head>
 
-<body>
+<body id="body">
     <header id="header-container">
         <nav>
             <img src="images/headshot.jpg" alt="A photo of Abigail Unwin">
             <h1 class="header-name">Abigail Unwin</h1>
             <br>
-            <a class="nav-link">Projects</a>
             <a class="nav-link">About me</a>
+            <a class="nav-link">Web Projects</a>
+            <a class="nav-link">Graphic design</a>
             <a class="nav-link">Skills</a>
             <a class="nav-link">Testimonials</a>
             <a class="nav-link">Contact Me</a>
         </nav>
     </header>
-
+    <section id="about-me-container">
+        <h2 class="section-title" class="about-me-title"><span class="underline">Ab</span>out Me</h2><br>
+        <p class="about-me">
+            I am a 27 year old developer in training from Oxford, UK.
+            I am just starting out in my career in technology,
+            there is a lot to master but I'm excited to learn as much as I can!
+            Since graduating <a href="https://www.brookes.ac.uk/">Oxford Brookes University</a> I have worked
+            for a large UK finanical services company <a href="https://www.howdengroup.com/uk-en">Howden UK &
+                Ireland</a>
+            for 6 years. I work as an Application Technician, this is what kicked off my passion for coding and
+            technology,
+            coding is a big part of my every day work life. I love my job but my goal is to progress to be a full stack
+            Web-Developer. I am currently completing a Web Development course ran by <a
+                href="https://codefirstgirls.com/">Code First
+                Girls</a> and a Front End development nanodegree
+            ran by <a
+                href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12906460312_c_individuals&utm_term=121838871739&utm_keyword=udacity%20front%20end_e&gclid=CjwKCAjw4ayUBhA4EiwATWyBrqVFnnVUpAnf2r1iGQ95xTxOIpW04v_8TKuYKuVAc_D9p9ez-XQKbBoCvZEQAvD_BwE">Udacity</a>.
+            <br><br>
+            <span class="current-project">The project am I currently working on:</span> I am creating an asynchronous
+            web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
+        </p>
+    </section>
     <section id="projects-container">
         <div class="title-container">
-            <h2 class="section-title white-title"><span class="white-title">Pr</span>ojects</h2>
+            <h2 class="section-title white-title"><span class="white-title underline">We</span>b Projects</h2>
         </div>
         <div class="projects">
             <div class="project-card">
@@ -44,9 +74,11 @@
                 </div>
                 <div class="right-col-project-card">
                     <a class="project-name" href="https://abbie-codes.github.io/custom-card/">
-                        <h3>Custom Payment Card Website</h3>
+                        <h3><img class="new-project" src="images/icons/new.png" alt="new">Custom Payment Card Website
+                        </h3>
                     </a>
-                    <i>Created for Code First Girls: Introduction to Web Development Course.</i><br>
+                    <i>Final Project for Code First Girls: Introduction to Web Development Course.<br>
+                        This project won the contest for best project in the course!</i><br>
                     <br>
                     <p>For this project I created responsive landing page and product build page for customisable
                         payment cards using <span class="lang">Javascript</span>, <span class="lang">HTML</span>
@@ -123,27 +155,89 @@
             </div>
     </section>
 
-    <section id="about-me-container">
-        <h2 class="section-title" class="about-me-title"><span>Ab</span>out Me</h2><br>
-        <p class="about-me">
-            I am a 27 year old Oxford based, developer in training.
-            I am just starting out in my career in technology,
-            there is a lot to master but I'm excited to learn as much as I can!
-            Since graduating <a href="https://www.brookes.ac.uk/>">Oxford Brookes University</a> I have worked
-            for a large UK finanical services company <a href="https://www.howdengroup.com/uk-en">Howden UK &
-                Ireland</a>
-            for 6 years. I work as an Application Technician, this is what kicked off my passion for coding and
-            technology,
-            coding is a big part of my every day work life. I love my job, but my goal is to progress to be Full
-            Stack
-            Developer. I am currently completing a course ran by Code First Girls on Web Development, and a nanodegree
-            ran by Udacity on Front End Web development.
-        </p>
+    <section id="design-container">
+        <div id="design-description">
+            <h2 class="section-title" class="about-me-title"><span class="underline">Gr</span>aphic design<img
+                    class="new" src="images/icons/new.png" alt="new"></h2><br>
+            <p class="design-description-p">As well as web development, I've long loved graphic design and creating art
+                digitally which I've found compliments web development well.
+                To showcase my design skills in Adobe photoshop & Adobe illustrator I have recently created a Dribbble
+                account for images and a Youtube and Tiktok account for tutorial videos.
+                <br><br>
+                To view the accounts click the links above. To go straight to the relevant video tutorial, click an
+                image in the slideshow.
+            </p>
+        </div>
+
+        <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+                <li class="item4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <a href="https://www.youtube.com/watch?v=UZ1Rp2_9cpw">
+                        <img src="images/making-waves.png"
+                            alt="Making waves text that repeats four times with wavy effect split in the middle multicolored">
+                    </a>
+                    <div class="carousel-caption">
+                        <p>Created in Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=UZ1Rp2_9cpw">
+                        <img src="images/making-waves.png"
+                            alt="Making waves text that repeats four times with wavy effect split in the middle multicolored">
+                    </a>
+                    <div class="carousel-caption">
+                        <p>Created in Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=UZ1Rp2_9cpw">
+                        <img src="images/making-waves.png"
+                            alt="Making waves text that repeats four times with wavy effect split in the middle multicolored">
+                    </a>
+                    <div class="carousel-caption">
+                        <p>Created in Adobe Illustrator</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=UZ1Rp2_9cpw">
+                        <img src="images/making-waves.png"
+                            alt="Making waves text that repeats four times with wavy effect split in the middle multicolored">
+                    </a>
+                    <div class="carousel-caption">
+                        <p>Created in Adobe Illustrator</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" style="background-color: #fff">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" style="background-color: #fff">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+        <br>
     </section>
-    <br>
     <section id="skills-container">
         <div class="title-container">
-            <h2 class="section-title white-title"><span class="white-title">Sk</span>ills</h2>
+            <h2 class="section-title white-title"><span class="underline white-title">Sk</span>ills</h2>
         </div>
         <div class="programming-icons">
             <figure class="icon">
@@ -185,7 +279,7 @@
 
     <section id="testimonials-container">
         <div class="testimonials-title">
-            <h2 class="section-title"><span>Wh</span>at people are saying</h2>
+            <h2 class="section-title"><span class="underline">Wh</span>at people are saying</h2>
         </div>
         <div class="quote-container">
             <quote>
@@ -222,7 +316,7 @@
     <section id="footer-container">
         <div class="contact-me">
             <div class="footer-title">
-                <h2 class="section-title white-title"><span class="white-title">Co</span>ntact</h2>
+                <h2 class="section-title white-title"><span class="underline white-title">Co</span>ntact</h2>
             </div>
             <div class="icon-descriptor">
                 <img src="images/icons/icons8-circled-envelope-50.png" height="30px" width="30px"> &nbsp
@@ -234,7 +328,7 @@
         </div>
         <div class="social">
             <div class="footer-title">
-                <h2 class="section-title white-title"><span class="white-title">So</span>cial</h2>
+                <h2 class="section-title white-title"><span class="underline white-title">So</span>cial</h2>
             </div>
             <div class="icon-descriptor">
                 <a href="https://github.com/abbie-codes?tab=repositories" target="_blank"><img
@@ -248,6 +342,14 @@
                 <a href="https://www.linkedin.com/in/abigail-unwin-035104186/" target="_blank"><img
                         src="images/icons/icons8-linkedin-circled-30.png"> &nbsp LinkedIn</a>
             </div>
+            <div class="icon-descriptor">
+                <a href="https://www.youtube.com/channel/UCmBJnPavAmEraarCgpY2TBw" target="_blank"><img
+                        src="images/icons/icons8-youtube-30.png"> &nbsp Youtube</a>
+            </div>
+            <div class="icon-descriptor">
+                <a href="https://dribbble.com/abbieunwin" target="_blank"><img
+                        src="images/icons/icons8-dribbble-circled-50.png" height="30" width="30"> &nbsp Dribbble</a>
+            </div>
         </div>
         <div class="logo-footer">
             <img src="images/logo.png" height="250vh">
@@ -258,6 +360,9 @@
         </p>
     </section>
     <script src="JS/app.js"></script>
+    <script>
+
+    </script>
 </body>
 
 </html>
