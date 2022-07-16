@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Title-->
+    <title>Abigail Unwin | Portfolio</title>
+</head>
+
+<body id="body">
+    <header id="header-container">
+        <nav>
+            <img src="images/headshot.jpg" alt="A photo of Abigail Unwin">
+            <h1 class="header-name">Abigail Unwin</h1>
+            <br>
+            <a class="nav-link" href="/index.html">About me</a>
+            <a class="nav-link" href="/index.html#projects-container">Web Projects</a>
+            <a class="nav-link" href="/index.html#design-container">Graphic design</a>
+            <a class="nav-link" href="/index.html#skills-container">Skills</a>
+            <a class="nav-link" href="/index.html#testimonials-container">Testimonials</a>
+            <a class="nav-link" href="/index.html#footer-container">Contact Me</a>
+        </nav>
+    </header>
+    <section id="projects-container">
+        <div class="title-container">
+            <h2 class="section-title white-title"><span class="white-title underline">We</span>b Projects</h2>
+        </div>
+        <div class="projects">
+            <div class="project-card">
+                <div class="left-col-project-card">
+                    <a href="https://your-next-adventure.netlify.app/">
+                        <img class="project-image" src="images/next-adventure.jpg" alt="image of Opinion Miner App"
+                            width="95%"></a>
+                </div>
+                <div class="right-col-project-card">
+                    <a class="project-name" href="https://your-next-adventure.netlify.app"></a>
+                    <h3><img class="new-project" src="images/icons/new.png" alt="new">Next Adventure App
+                    </h3>
+                    </a>
+                    <i>Created for Udacity as part of a Front End Development Nanodegree.</i><br>
+                    <br>
+                    <p>For this project I built a travel planner application. You can enter the dates and location of
+                        your trip and using <a href="http://www.geonames.org/export/web-services.html">Geonames API</a>
+                        and <a href="https://www.weatherbit.io/api">Weatherbit API, </a>the app with
+                        either tell you the weather forecast for your trip (if the trip is within 16 days) or the
+                        climate normals for your trip.
+                        I have also included a tickable packing list feature, a countdown to the trip and a photo of the
+                        location generated from <a href="https://pixabay.com/api/docs/">Pixabay API</a>. This project
+                        uses a Node.js server to store project data, Express for routing,
+                        Webpack to build the project, SCSS for styling and Javascript for functionality. The HTML and
+                        CSS is my own.</p>
+                    <br>
+                    To view the code please
+                    <a class="github-repository" href="https://github.com/abbie-codes/next-adventure-travel-app">visit
+                        the
+                        Github
+                        repository</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="left-col-project-card">
+                    <a href="https://opinion-miner.netlify.app">
+                        <img class="project-image" src="images/OpinionMiner.jpg" alt="image of Opinion Miner App"
+                            width="95%"></a>
+                </div>
+                <div class="right-col-project-card">
+                    <a class="project-name" href="https://opinion-miner.netlify.app">
+                        <h3>Opinion Miner
+                        </h3>
+                    </a>
+                    <i>Created for Udacity as part of a Front End Development Nanodegree.</i><br>
+                    <br>
+                    <p>For this project I built a web application that allows users to run Natural Language Processing
+                        (NLP) on articles or blogs found on other websites.
+                        The applicaton was built using an external API from <a
+                            href="https://www.meaningcloud.com/developer/apis">Meaning Cloud</a>, that runs sentiment
+                        analysis on articles.
+                        This project uses webpack to build the application. I have also created a Node.js server to
+                        store the API keys and run the application. I have used Express for routing.
+                        The languages used in this project are HTML, SCSS and JavaScript.
+                        <br>
+                        To view the code please
+                        <a class="github-repository" href="https://github.com/abbie-codes/opinion-miner">visit the
+                            Github
+                            repository</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="left-col-project-card">
+                    <a href="https://weather-journal-app-4vfhs.ondigitalocean.app/">
+                        <img class="project-image" src="images/weather-journal-app.jpg"
+                            alt="image of Weather Journal app" width="95%"></a>
+                </div>
+                <div class="right-col-project-card">
+                    <a class="project-name" href="https://weather-journal-app-4vfhs.ondigitalocean.app/">
+                        <h3>Weather Journal App
+                        </h3>
+                    </a>
+                    <i>Created for Udacity as part of a Front End Development Nanodegree.</i><br>
+                    <br>
+                    <p>For this project I created a <span class="lang">node.js</span> server to store data from a
+                        combination of user input on a
+                        web page, the date generated in the app.js file and the current temperature (in Farenheit) which
+                        was
+                        generated using an API from <a href="https://openweathermap.org/api">OpenWeatherMap</a>, the API
+                        requires a post code which is entered on the webpage.
+
+                        I used Express, cors and body-parser node.js modules in this project.
+
+                        This web project showcases asyncronous fetch, get and post <span class="lang">javascript</span>
+                        functions, and the use of
+                        an external
+                        API; a <span class="lang">node.js</span> server, <span class="lang">HTML</span> & <span
+                            class="lang">CSS</span> styling. I used Digital Ocean to deploy this website as they
+                        host
+                        backend node.js servers.
+                        <br>
+                        To view the code please
+                        <a class="github-repository" href="https://github.com/abbie-codes/weather-journal-app">visit the
+                            Github
+                            repository</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="left-col-project-card">
+                    <a href="https://abbie-codes.github.io/custom-card/">
+                        <img class="project-image" src="images/custom-card.png" alt="image of Custom Card landing page"
+                            width="95%"></a>
+                </div>
+                <div class="right-col-project-card">
+                    <a class="project-name" href="https://abbie-codes.github.io/custom-card/">
+                        <h3>Custom Payment Card Website</h3>
+                    </a>
+                    <i>Final Project for Code First Girls: Introduction to Web Development Course.<br>
+                        This project won the contest for best project in the course!</i><br>
+                    <br>
+                    <p>For this project I created responsive landing page and product build page for customisable
+                        payment cards using <span class="lang">Javascript</span>, <span class="lang">HTML</span>
+                        and <span class="lang">CSS</span> . This website is two pages, but the second page has multiple
+                        sections that display, or hide when you navigate using the navigation buttons. On the front page
+                        I have built a slideshow of cards (that I created using Photoshop). On the build page I have
+                        created a preview feature, when you click the option you would like to display on the card the
+                        preview section updates. I have included a form and once the form is submitted another section
+                        pops up to confirm the order.
+                        The order number rises with each order.
+                        <br>
+                        To view the code please
+                        <a class="github-repository" href="https://github.com/abbie-codes/custom-card">visit the Github
+                            repository</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="left-col-project-card">
+                        <a href="https://abbie-codes.github.io/landing-page/">
+                            <img class="project-image" src="images/landing-page.png" alt="image of landing page"
+                                width="95%"></a>
+                    </div>
+                    <div class="right-col-project-card">
+                        <a class="project-name" href="https://abbie-codes.github.io/landing-page/">
+                            <h3>Landing Page</h3>
+                        </a>
+                        <i>Created for Udacity as part of a Front End Development Nanodegree.</i><br>
+                        <br>
+                        <p>For this project I created responsive landing page for a study app using <span
+                                class="lang">Javascript</span>, <span class="lang">HTML</span>
+                            and <span class="lang">CSS</span> . This website is one page. The navigation bar highlights
+                            the
+                            section displayed in the viewport and hides when scrolling. The section that is being viewed
+                            becomes active, highlights and an animation is added. When a user scrolls down the page a
+                            button
+                            appears to allow the user to scroll to top. All sections are collapsible.
+                            <br>
+                            To view the code please
+                            <a class="github-repository" href="https://github.com/abbie-codes/landing-page">visit the
+                                Github
+                                repository</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="left-col-project-card">
+                        <a href="https://abbie-codes.github.io/article-blog/">
+                            <img class="project-image" src="images/article-blog.jpg" alt="image of blog website"
+                                width="95%"></a>
+                    </div>
+                    <div class="right-col-project-card">
+                        <a class="project-name" href="https://abbie-codes.github.io/article-blog/">
+                            <h3>Web Development Blog</h3>
+                        </a>
+                        <i>Created for Udacity as part of a Front End Development Nanodegree.</i><br>
+                        <br>
+                        <p>For this project I created responsive Web Development blog homepage and blog post using <span
+                                class="lang">HTML</span>
+                            and <span class="lang">CSS</span> . This website contains 2 pages which include a blog post
+                            and
+                            homepage,
+                            clickable links to social media, blog cards, a search
+                            bar and subscribe feature.
+                            <br>
+                            To view the code please
+                            <a class="github-repository" href="https://github.com/abbie-codes/article-blog">visit the
+                                Github
+                                repository</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="footer-container">
+        <div class="contact-me">
+            <div class="footer-title">
+                <h2 class="section-title white-title"><span class="underline white-title">Co</span>ntact</h2>
+            </div>
+            <div class="icon-descriptor">
+                <img src="images/icons/icons8-circled-envelope-50.png" height="30px" width="30px"> &nbsp
+                abbie.codes@pm.me
+            </div>
+            <div class="icon-descriptor">
+                <img src="images/icons/icons8-phone-30.png"> &nbsp (+44) 7552231160 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            </div>
+        </div>
+        <div class="social">
+            <div class="footer-title">
+                <h2 class="section-title white-title"><span class="underline white-title">So</span>cial</h2>
+            </div>
+            <div class="icon-descriptor">
+                <a href="https://github.com/abbie-codes?tab=repositories" target="_blank"><img
+                        src="images/icons/icons8-github-30.png"> &nbsp Github &nbsp&nbsp</a>
+            </div>
+            <div class="icon-descriptor">
+                <a href="https://codepen.io/abbie-codes" target="_blank"><img src="images/icons/icons8-codepen-50.png"
+                        height="30px" width="30px"> &nbsp Codepen</a>
+            </div>
+            <div class="icon-descriptor">
+                <a href="https://www.linkedin.com/in/abigail-unwin-035104186/" target="_blank"><img
+                        src="images/icons/icons8-linkedin-circled-30.png"> &nbsp LinkedIn</a>
+            </div>
+            <div class="icon-descriptor">
+                <a href="https://www.youtube.com/channel/UCmBJnPavAmEraarCgpY2TBw" target="_blank"><img
+                        src="images/icons/icons8-youtube-30.png"> &nbsp Youtube</a>
+            </div>
+            <div class="icon-descriptor">
+                <a href="https://dribbble.com/abbieunwin" target="_blank"><img
+                        src="images/icons/icons8-dribbble-circled-50.png" height="30" width="30"> &nbsp Dribbble</a>
+            </div>
+        </div>
+        <div class="logo-footer">
+            <img src="images/logo.png" height="250vh">
+        </div>
+        <p class="copyright">
+            <img src="images/icons/icons8-copyright-all-rights-reserved-24.png" height="15px" width="15px">
+            &nbsp Made with ♡ by Abigail Unwin
+        </p>
+    </section>
+    <script src="JS/app.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
