@@ -50,6 +50,10 @@ nav > a:hover {
     float: right;
 }
 
+.item > a > img {
+    margin: auto;
+}
+
 /*Skills section */
 .icon img {
     opacity: 0.9;
@@ -64,14 +68,20 @@ nav > a:hover {
     font-family: 'Montserrat', sans-serif;
 }
 
+.project-card a {
+    color: deeppink;
+    text-decoration: none;
+}
+
 .github-repository {
     color: deeppink;
     text-decoration: none;
     font-weight: 500;
 }
 
+.project-card a:hover,
 .github-repository:hover {
-    color: #0a2657;
+    color: pink;
 }
 
 .project-image {
@@ -90,6 +100,44 @@ nav > a:hover {
 
 .new-project {
     float: left;
+}
+
+.all-projects-button {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 2px solid #fff;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.all-projects-button:after {
+  content: "";
+  background-color: deeppink;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.all-projects-button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+.all-projects-button {
+    padding: 13px 50px 13px;
+  }
 }
 
 /*About Me section*/

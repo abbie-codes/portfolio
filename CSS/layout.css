@@ -55,6 +55,7 @@ nav > img {
     margin: auto;
     gap: 5%;
     padding: 5%;
+    font-size: 1.5rem;
 }
 
 .project-image {
@@ -74,6 +75,13 @@ nav > img {
 
 .right-col-project-card {
     text-align: center;
+}
+
+.all-projects-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 50px 50px;
 }
 
 /* About Me section */
